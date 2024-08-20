@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- Top bar start -->
+    <div class="topbar">
+        <div class="logo">
+            <img src="./amazon-png-logo-vector-6701.png" alt="" height="50px" class="Amazon_logo">
+        </div>
+
+        <div class="location">
+            <p class="Deliver">Deliver to</p>
+            <div class="locplace">
+                <span class="material-symbols-outlined location-logo">location_on</span>
+                <p class="India">India</p>
+            </div>
+        </div>
+        
+        <div class="searchpart">
+            <select class="All" >
+                <option >All</option>
+                <option >All Categories</option>
+                <option >Alexa Skills</option>
+                <option >Amazon Devices</option>
+                <option >Amazon Fresh</option>
+                <option >Amazon Pharmacy</option>
+                <option >Appliances</option>
+                <option >Apps & Games</option>
+            </select>
+    
+            <input class="searchbox" type="text" placeholder="Search for products..." id="searchInput" onkeyup="filterFunction()" >
+
+            <div class="searchlogodiv">
+                <span class="material-symbols-outlined searchlogo">
+                    search
+                    </span>
+            </div>
+        </div>
+        
+        <div class="languages">
+           
+            <select class="Language" >
+                <option >EN</option>
+                <option >हिन्दी - HI - अनुवाद</option>
+                <option >தமிழ் - TA - மொழிபெயர்ப்பு</option>
+                <option >తెలుగు - TE - అనువాదం</option>
+                <option >ಕನ್ನಡ - KN - ಭಾಷಾಂತರ</option>
+                <option >മലയാളം - ML - വിവർത്തനം</option>
+                <option >বাংলা - BN - অনুবাদ</option>
+            </select>
+            
+
+        </div>
+
+        <div class="nameaccount">
+            <p class="sign">Hello, sign in</p>
+            <div>
+                <select class="Account-signin" >
+                    <option class="text"> Account & Lists</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="retursnorder">
+            <p class="Returns">Returns</p>
+            <div>
+                <p class="Orders">& Orders</p>
+            </div>
+        </div>
+
+        <div class="cart">
+            <img src="./baseline_shopping_cart_white_24dp.png" class="cartimg">
+             <p class="Cart">Cart</p>
+        </div>
+        
+    </div>
+    <!-- Top bar end -->
+
+    <!-- 2nd Bar Start -->
+    <div class="navbar2">
+        <div class="buttons3">
+            <span class="material-symbols-outlined menuicon">
+                menu
+                </span>
+            <p class="navbarpart1">All</p>
+        </div>
+
+        <div class="fresh">
+            <p class="navbarpart">Fresh </p>
+        </div>
+
+        <div class="miniTV">
+            <p class="navbarpart">Amazon miniTV</p>
+        </div>
+
+        <div class="sell">
+            <p class="navbarpart">Sell</p>
+        </div>
+
+        <div class="Todaysdeals">
+            <p class="navbarpart">Today's Deals</p>
+        </div>
+
+        <div class="mobiles">
+            <p class="navbarpart">Mobiles</p>
+        </div>
+
+        <div class="newrelease">
+            <p class="navbarpart">New Releases</p>
+        </div>
+
+        <div class="fashion">
+            <p class="navbarpart">Fashion</p>
+        </div>
+    </div>
+    <!-- 2nd Bar End -->
+
+    <!-- ADVERTISEMENT PORTION START -->
+        <div class="ads">
+            <img src="./CBCC-PC_Hero_3000x1200_Prime_28thsept._CB576824032_.jpg" class="adspic" alt="salepic">
+        </div>
+    <!-- ADVERTISEMENT PORTION START -->
+
+    <!-- Product banners Line 1 start-->
+    <div class="banners">
+        
+        <div class="bannerL1">
+            <div class="banner1a L1">
+                <h4><strong>Top Deals of the Week!</strong></h4>
+                <img src="./bag pic.jpeg" class="bagpic Images bag1"
+                 alt="bag">
+                 <img src="./bag2.jpg"class="bagpic Images "  alt="">
+                 <img src="./bag3.jpg" class="bagpic Images" alt="">
+                 <img src="./bag4.jpg"class="bagpic Images"  alt="">
+            </div>
+
+            <div class="banner1b L1">
+                <h4><strong>Top Deals of the Week!</strong></h4>
+                <img src="./charger.jpg" class="chargerpic Images" alt="">
+                <img src="./mop1.jpg" class="mop1pic Images" alt="">
+                <img src="./mop2.jpg" class="mop2pic Images" alt="">
+            </div>
+
+            <div class="banner1c L1">
+                <h4><strong>Top Deals of the Week!</strong></h4>
+                <img src="./hooks.jpeg" class="hookspic Images" alt="">
+                <img src="./mop3.jpg"  class="mop3pic Images" alt="">
+                <img src="./handbag.jpg" class="handbagpic Images" alt="">
+            </div>
+
+        </div>
+
+        <div class="bannerL2">
+
+            <div class="banner2a L2">
+                <h4><strong>Top Deals of the Week!</strong></h4>
+                <img src="./bed.jpg" class="bedpic Images" alt="">
+                <img src="./officechair.jpg" class="officechairpic Images" alt="">
+            </div>
+
+            <div class="banner2b L2">
+                <h4><strong>Top Deals of the Week!</strong></h4>
+                <img src="./proteinpowder.jpg" class="powderpic1 Images" alt="">
+                <img src="./proteinpowder2.jpg" class="powderpic2 Images" alt="">
+                
+            </div>
+
+            <div class="banner2c L2">
+                <h4><strong>Top Deals of the Week!</strong></h4>
+                <img src="./shoe.jpg" class="shoe1pic Images" alt="">
+                <img src="./shoe2.jpg" class="shoe2pic Images" alt="">
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- Product banners line 2 end -->
+
+    <!-- Footer start -->
+    <footer class="footer">
+        <div class="foot">
+            <p class="text"> Back to Top </p>
+        </div>
+
+        <div class="Bottompart">
+            <ul>
+                <h4>Get to Know us </h4>
+                <a>About Us</a>
+                <a>Careers</a>
+                <a>Press Releases</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <h4>Connect with Us </h4>
+                <a>Facebook</a>
+                <a>Twitter</a>
+                <a>Instagram</a>
+            </ul>
+            <ul>
+                <h4>Make Money with Us</h4>
+                <a>Sell on Amazon</a>
+                <a>Sell under Amazon Accelerator</a>
+                <a>Protect and Build Your Brand</a>
+                <a>Amazon Global Selling</a>
+                <a>Become an Affililate</a>
+                <a>Fulfillment By Amazon</a>
+                <a>Advertise Your Products</a>
+                <a>Amazon Pay on Merchants</a> 
+            </ul>
+            <ul>
+                <h4>Make Money with Us</h4>
+                <a>Sell on Amazon</a>
+                <a>Sell under Amazon Accelerator</a>
+                <a>Protect and Build Your Brand</a>
+                <a>Amazon Global Selling</a>
+                <a>Become an Affililate</a>
+                <a>Fulfillment By Amazon</a>
+                <a>Advertise Your Products</a>
+                <a>Amazon Pay on Merchants</a> 
+            </ul>
+            <ul>
+                <h4>Let Us Help You</h4>
+                <a>COVID-19 and Amazon</a>
+                <a>Your Account</a>
+                <a>Returns Centre</a>
+                <a>100% Purchase Protection</a>
+                <a>Amazon App Download</a>
+                <a>Help</a>
+            </ul>
+        </div>
+        <div class="thirdpanel">
+            <div class="logo2">
+                <img src="./amazon-png-logo-vector-6701.png" alt="" class="Logopart2">
+            </div>
+            <div class="select-op">
+            <select name="" id="" class="sele">
+              <option value="En">English</option>
+            </select>
+            <select name="" id="" class="sele">
+              <option value="1">₹ INR - Indian Rupee</option>
+            </select>
+            
+            <select name="" id="" class="sele">
+              <option value="4"> India</option>
+            </select>
+            </div>
+          </div>
+          <div class="panel4">
+            <div class="page">
+              <a href="">Conditions of Use</a>
+                <a href="">Privacy Notice</a>
+                <a href="">Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+              © 1996-2023, Amazon.in, Inc. or its affiliates
+            </div>
+          </div>
+    </footer>
+    <!-- Footer End -->
+</body>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
