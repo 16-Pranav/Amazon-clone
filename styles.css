@@ -1,338 +1,327 @@
-body{
-    margin:0px;
-
+body {
+  margin: 0px;
 }
-.India{
-    margin-top: 0;
-    margin-bottom: 0em;
+.India {
+  margin-top: 0;
+  margin-bottom: 0em;
 }
-.topbar{
-    background-color: #131A22;
-    display: flex;
-    
+.topbar {
+  background-color: #131a22;
+  display: flex;
+  justify-items: center;
 }
-.Amazon_logo{
-    height: 30px;
-    margin-top: 19px;
-    margin-right: 10px;
-    margin-left: 18px;
-    margin-bottom: 0%;
-}
-
-.location{
-    margin-top: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 0%;
-}
-.Deliver{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #c2c8d0;
-    font-size: 15px;
-    margin-bottom: 1px;
-}
-.locplace{
-    display: flex;
-    color: antiquewhite;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight:bolder;
-    margin: 0px;
-    
-}
-.location-logo{
-    size: 17px;
-    margin: 0px;
-    height: fit-content;
+.Amazon_logo {
+  height: 30px;
+  margin-top: 19px;
+  margin-right: 10px;
+  margin-left: 18px;
+  margin-bottom: 0%;
 }
 
-.searchpart{
-    display: flex;
-    height: 49px;
+.location {
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0%;
 }
-button{
-    border: none;
+.Deliver {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #c2c8d0;
+  font-size: 15px;
+  margin-bottom: 1px;
 }
-.All{
-    background-color: #f3f3f3;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-    width: 50px;
-    text-align: center;
-    border: none;
-    margin-top: 10px;
+.locplace {
+  display: flex;
+  color: antiquewhite;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  margin: 0px;
+}
+.location-logo {
+  size: 17px;
+  margin: 0px;
+  height: fit-content;
+}
+
+.searchpart {
+  display: flex;
+  height: 49px;
+}
+button {
+  border: none;
+}
+.All {
+  background-color: #f3f3f3;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  width: 50px;
+  text-align: center;
+  border: none;
+  margin-top: 10px;
 }
 .searchbox {
-    width: 730px;
-    padding: 10px;
-    margin-top: 10px;
+  width: 730px;
+  padding: 10px;
+  margin-top: 10px;
 }
 
-.searchlogodiv{
-    background-color: #f8b44f;
-    margin-top: 10px;
-    width: 38px;
+.searchlogodiv {
+  background-color: #f8b44f;
+  margin-top: 10px;
+  width: 38px;
 }
-.searchlogo{
-    margin-top:5px;
-    color: black;
-    margin-left: 5px;
-}
-
-.languages{
-    margin-top: 10px;
-    width: 85px;
+.searchlogo {
+  margin-top: 5px;
+  color: black;
+  margin-left: 5px;
 }
 
-.Language{
-    background-color: #131A22;
-    width: 50px;
-    text-align: center;
-    border: none;
-    margin-top: 10px;
-    color: antiquewhite;
-    margin-left: 15px;
-    font-weight: bolder;
-    
+.languages {
+  margin-top: 10px;
+  width: 85px;
 }
 
-.nameaccount{
-    margin-top: 10px;
+.Language {
+  background-color: #131a22;
+  width: 50px;
+  text-align: center;
+  border: none;
+  margin-top: 10px;
+  color: antiquewhite;
+  margin-left: 15px;
+  font-weight: bolder;
 }
 
-.sign{
-    color:white;
-    font-size: 13px;
-    margin-bottom:0%;
-    align-content: normal;
-    
+.nameaccount {
+  margin-top: 10px;
 }
 
-.Account-signin{
-    background-color: #131A22;
-    width: 140px;
-    border: none;
-    /* margin-top: 10px; */
-    color: antiquewhite;
-    font-weight: bolder;
-   
-}
-.text{
-    font-size: medium;
+.sign {
+  color: white;
+  font-size: 13px;
+  margin-bottom: 0%;
+  align-content: normal;
 }
 
-.retursnorder{
-    margin-left: 20px;
-    margin-top: 10px;
+.Account-signin {
+  background-color: #131a22;
+  width: 140px;
+  border: none;
+  /* margin-top: 10px; */
+  color: antiquewhite;
+  font-weight: bolder;
 }
-.Returns{
-    color: antiquewhite;
-    font-size: 13px;
-    margin-bottom:0%;
-}
-
-.Orders{
-    background-color: #131A22;
-    width: 98px;
-    border: none;
-    /* margin-top: 10px; */
-    color: antiquewhite;
-    font-weight: bolder;
-
+.text {
+  font-size: medium;
 }
 
-.cart{
-    display: flex;
-    color: antiquewhite;
-    margin-bottom: 0;
-    height: 1px;
-    margin-top: 10px;
-    
+.retursnorder {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.Returns {
+  color: antiquewhite;
+  font-size: 13px;
+  margin-bottom: 0%;
 }
 
-.Cart{
-    margin-top: 12px;
-    font-weight: 700;
+.Orders {
+  background-color: #131a22;
+  width: 98px;
+  border: none;
+  /* margin-top: 10px; */
+  color: antiquewhite;
+  font-weight: bolder;
 }
 
-.cartimg{
-    height: 40px;
+.cart {
+  display: flex;
+  color: antiquewhite;
+  margin-bottom: 0;
+  height: 1px;
+  margin-top: 10px;
 }
 
-.navbar2{
-    background-color: #232f3e;
-    display: flex;
-}
-.buttons3{
-    display: flex;
-}
-.menuicon{
-    color: antiquewhite;
-    margin-left:  15px;
-    margin-top: 4px;
-    margin-bottom: 3px;
-}
-.navbarpart1{
-    color: antiquewhite;
-    margin-left:  4px;
-    margin-right:  40px;
-    margin-top: 4px;
-    margin-bottom: 3px;
+.Cart {
+  margin-top: 12px;
+  font-weight: 700;
 }
 
-.navbarpart{
-    color: antiquewhite;
-    margin-left:  40px;
-    margin-right:  40px;
-    margin-top: 4px;
-    margin-bottom: 3px;
+.cartimg {
+  height: 40px;
 }
 
-.ads{
-    border: #c2c8d0;
-    margin-right: 18px;
-
+.navbar2 {
+  background-color: #232f3e;
+  display: flex;
 }
-.adspic{
-    width: 98.7%;
-    height: 10%;
-    margin-left: 18px;
+.buttons3 {
+  display: flex;
 }
-.banners{
-    background-color: #f2f2f2;
-    margin-left: 18px;
-    margin-right: 18px;
-    margin-top: 0px;
+.menuicon {
+  color: antiquewhite;
+  margin-left: 15px;
+  margin-top: 4px;
+  margin-bottom: 3px;
 }
-.bannerL1{
-    margin-left: 30px;
-    margin-right: 30px;
-    display: flex;
-}
-.L1{
-    margin: 30px;
-    background-color: white;
-    width: 500px; 
-    padding: 10px;
-    display:inline-table;
-}
-.L2{
-    margin: 30px;
-    background-color: white;
-    width:flex; 
-    padding: 10px;
-    
+.navbarpart1 {
+  color: antiquewhite;
+  margin-left: 4px;
+  margin-right: 40px;
+  margin-top: 4px;
+  margin-bottom: 3px;
 }
 
-.bannerL2{
-    margin-left: 30px;
-    margin-right: 30px;
-    width: min-content;
-    display: flex;
-}
-.Images{
-    height: 120px;
-    margin:25px;
-    padding: 2px;
-    background-color: #f2f2f2;
+.navbarpart {
+  color: antiquewhite;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 4px;
+  margin-bottom: 3px;
 }
 
-.bagpic{
-    height: max-content;
+.ads {
+  border: #c2c8d0;
+  margin-right: 18px;
 }
-.bag1{
-    height: 160px;
+.adspic {
+  width: 98.7%;
+  height: 10%;
+  margin-left: 18px;
+}
+.banners {
+  background-color: #f2f2f2;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 0px;
+}
+.bannerL1 {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+}
+.L1 {
+  margin: 30px;
+  background-color: white;
+  width: 500px;
+  padding: 10px;
+  display: inline-table;
+}
+.L2 {
+  margin: 30px;
+  background-color: white;
+  width: flex;
+  padding: 10px;
 }
 
-.foot{
-    height: 50px;
-    background-color: #232F3E;
-    color: white;
-    font: 15px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+.bannerL2 {
+  margin-left: 30px;
+  margin-right: 30px;
+  width: min-content;
+  display: flex;
 }
-.text{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+.Images {
+  height: 120px;
+  margin: 25px;
+  padding: 2px;
+  background-color: #f2f2f2;
 }
 
-.Bottompart{
-    background-color: #333;
-    color: white;
-    height: 400px;
-    display: flex;
-    justify-content: space-evenly;
+.bagpic {
+  height: max-content;
 }
-.Bottompart h4{
-    font-weight: bold;
+.bag1 {
+  height: 160px;
 }
-ul{
-    margin-top: 20px;
+
+.foot {
+  height: 50px;
+  background-color: #232f3e;
+  color: white;
+  font: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.Bottompart {
+  background-color: #333;
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Bottompart h4 {
+  font-weight: bold;
+}
+ul {
+  margin-top: 20px;
 }
 ul a {
-    display: block;
-    font-size: 14px;
-    margin-top: 15px;
-    color: #dddddd;
+  display: block;
+  font-size: 14px;
+  margin-top: 15px;
+  color: #dddddd;
 }
 
-.thirdpanel{
-    background-color: #333;
-    color: white;
-    border-top: 0.5px solid #848688;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .Logopart2{
-    width: 80px;
-    height: 25px;
-  }
-  
-  .select-op{
-    margin-left: 55px;
-    display: flex;
-  }
-  
-  .select-op select{
-    background: transparent;
-    color: #cccccc;
-    font-size: 13px;
-    text-decoration: none;
-    margin-left: 5px;
-    border: 1px solid #848688;
-    padding: 6px 18px 6px 8px;
-    border-radius: 3px;
-  }
-  
-  .panel4{
-    background-color: #333;
-    color: white;
-    height: 80px;
-    font-size: 12px;
-    text-align: center;
-    /*display: flex;
+.thirdpanel {
+  background-color: #333;
+  color: white;
+  border-top: 0.5px solid #848688;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Logopart2 {
+  width: 80px;
+  height: 25px;
+}
+
+.select-op {
+  margin-left: 55px;
+  display: flex;
+}
+
+.select-op select {
+  background: transparent;
+  color: #cccccc;
+  font-size: 13px;
+  text-decoration: none;
+  margin-left: 5px;
+  border: 1px solid #848688;
+  padding: 6px 18px 6px 8px;
+  border-radius: 3px;
+}
+
+.panel4 {
+  background-color: #333;
+  color: white;
+  height: 80px;
+  font-size: 12px;
+  text-align: center;
+  /*display: flex;
     align-items: center;
     justify-content: center;*/
-  }
-  
-  .page{
-    text-align: center;
-    padding-top: 25px;
-  }
-  .page a {
-    text-decoration: none;
-    color: white;
-  
-  }
-  
-  .copyright{
-    margin-top: 5px;
-  }
+}
 
+.page {
+  text-align: center;
+  padding-top: 25px;
+}
+.page a {
+  text-decoration: none;
+  color: white;
+}
 
-
-
+.copyright {
+  margin-top: 5px;
+}
